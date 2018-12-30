@@ -1,5 +1,5 @@
 module "unifi-sdn-controller" {
-  source                                      = "oldcrowew/terraform-google-unifi-sdn-controller"
+  source                                      = "OldCrowEW/unifi-sdn-controller/google"
   google_project                              = "unifi-sdn-controller"
   google_region                               = "us-east1"
   google_zone                                 = "us-east1-b"
