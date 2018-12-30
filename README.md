@@ -2,7 +2,16 @@
 
 This ia a Terraform module to deploy the Ubiquiti Unifi SDN controller.
 
-This module will do everything for you if you choose nothing but running it. Here is an example playbook:
+This module will create:
+* networking
+* firewall rules
+* bucket
+** place startup script object in bucket
+* launch compute instance with startup script
+
+Everything is in a variable ready for adjustment as needed.
+
+Example use:
 
     module "unifi-sdn-controller {
         source                                      = "oldcrowew/terraform-google-unifi-sdn-controller"
