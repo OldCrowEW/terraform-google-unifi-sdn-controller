@@ -6,7 +6,7 @@ This module will create:
 * networking
 * firewall rules
 * bucket
-** place startup script object in bucket
+* startup script object in bucket
 * launch compute instance with startup script
 
 Everything is in a variable ready for adjustment as needed.
